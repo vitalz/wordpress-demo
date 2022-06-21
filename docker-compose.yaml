@@ -24,7 +24,7 @@ services:
       WORDPRESS_DB_PASSWORD: "12345"
       WORDPRESS_DB_NAME: wordpress
   db:
-    image: mysql:5.7
+    image: mariadb
     ports:
       - 3306:3306
     volumes:
