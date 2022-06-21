@@ -3,7 +3,7 @@ version: '3'
 networks:
   default:
     external:
-      name: wd-net
+      name: wp-net
 
 volumes:
     db:
@@ -19,11 +19,11 @@ services:
     volumes:
       - blog:/var/www/html
     environment:
-      WORDPRESS_DB_HOST: wd-mysql
+      WORDPRESS_DB_HOST: wp-mysql
       WORDPRESS_DB_USER: root
       WORDPRESS_DB_PASSWORD: "12345"
       WORDPRESS_DB_NAME: wordpress
-  mysql:
+  db:
     image: mysql:5.7
     ports:
       - 3306:3306
@@ -32,7 +32,7 @@ services:
     networks:
       default:
         aliases:
-          - wd-mysql
+          - wp-mysql
     environment:
       MYSQL_DATABASE: wordpress
       MYSQL_ROOT_PASSWORD: "12345"
