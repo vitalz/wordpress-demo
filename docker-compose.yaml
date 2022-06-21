@@ -1,9 +1,9 @@
 version: '3'
 
-networks:
-  default:
-    external:
-      name: wp-net
+# networks:
+#   default:
+#     external:
+#       name: wp-net
 
 volumes:
     db:
