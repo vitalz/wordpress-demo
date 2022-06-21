@@ -9,7 +9,7 @@ docker-compose up -d db wp
 ```
 http://127.0.0.1:8080/wp-admin
 ```
-and create your admin account (you can use a fake email at *example.org* domain to fill in email field; for example: user@example.org).  
+and create your admin account (to fill in email field you can use a fake email at *example.org* domain; for example: user@example.org).  
 ##### log in again
 ```
 http://127.0.0.1:8080/wp-login.php
