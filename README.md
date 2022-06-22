@@ -1,5 +1,6 @@
 # WordPress demo
-Try WordPress easy: need only Docker installed on local machine.
+Try WordPress easy with no affect and disaster to your system like new complicated services installed:  
+need only Docker installed on local machine.
 
 ### Start services
 ```
