@@ -15,6 +15,6 @@ and create your admin account (to fill in email field you can use a fake email a
 http://127.0.0.1:8080/wp-login.php
 ```
 ### Make your first posts and view them.
-Admin panel is on `http://127.0.0.1:8080/wp-admin/`  
-Published blog is available via `http://127.0.0.1:8080`  
-Files uploaded for posts are stored on */var/www/html* path on WordPress server: there is an attached volume *blog* in docker-compose.
+- Admin panel is on `http://127.0.0.1:8080/wp-admin/`  
+- Published blog is available via `http://127.0.0.1:8080`  
+- Files uploaded for posts are stored on */var/www/html* path on WordPress server: there is an attached volume *blog* in docker-compose.
